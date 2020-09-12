@@ -300,6 +300,17 @@ step-img img {
   line-height: 1.3;
 }
 
+.service-grid-container {
+  display: grid;
+}
+
+.service-grid-item {
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border: solid;
+  color: black;
+}
 
 /* REACH OUT STYLES START */
 .contact {
@@ -375,7 +386,8 @@ step-img img {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) { 
-  {
+
+    
     header {
       padding-bottom: 0;
       justify-content: center;
@@ -482,5 +494,4 @@ step-img img {
   .contact-form {
     order: 3;
   }
- 
-}
+ }
